@@ -1,0 +1,119 @@
+*{
+	
+}
+
+@font-face {
+	font-family:Poppins-Medium;
+	src: url("fonts/poppins/Poppins-Medium.otf") format("opentype");
+	
+	font-family:Poppins-SemiBold;
+	src: url("fonts/poppins/Poppins-SemiBold.otf") format("opentype");
+	
+	font-family:BarlowBoldItalic;
+	src: url("fonts/Barlow_Condensed/BarlowCondensed-BoldItalic.ttf") format("truetype");
+	
+	font-family:BarlowBlackItalic;
+	src: url("fonts/Barlow_Condensed/BarlowCondensed-BlackItalic.ttf") format("truetype");
+	
+	font-family:BarlowMedium;
+	src: url("fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf") format("truetype");
+	
+	font-family:BarlowExtraBold;
+	src: url("fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf") format("truetype");
+}
+header{
+	overflow:hidden;
+	background-color:#112B3C;
+}
+footer{
+	overflow:hidden;
+	background-color:#1746A2;
+}
+.footerbar{
+	text-decoration:none;
+	
+	color:white;
+	
+	font-family:Barlow;
+	font-size:20px;
+	text-decoration:none;
+	
+	margin-left:124px;
+}
+.navbar{
+	overflow:hidden;
+	background-color:transparent;
+	color:white;
+	
+	border-color:transparent;
+	border-radius:10px;
+	
+	float:right;
+	font-family:Barlow;
+	font-size:30px;
+	text-decoration:none;
+	
+	margin-top:12.5px;
+	margin-right:15px;
+
+	padding:5px;
+	padding-left:50px;
+	padding-right:50px;
+	
+	transition:0.8s;
+}
+.navbar:hover{
+	background-color:grey;
+	border-color:grey;
+}
+.imgLogo{
+	float:left;
+	
+	margin-left:50px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+body{
+	margin:0;
+	background-color:black;
+	background-image: url("imges/bodybg.gif");
+	background-size:1600px 966px;
+	
+	font-family:BarlowMedium;
+	text-shadow:2px 1px grey;
+}
+.btn{
+	color:#FF96AD;
+	font-family:BarlowExtraBold;
+	font-size:75px;
+	
+	border-radius:15px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	background-color:transparent;
+	transition:0.8s;
+}
+.btn:hover{
+	background-color:rgb(183, 196, 207,.5);
+}
+.active{
+	color:lime;
+	text-decoration:none;
+	background-color:green;
+}
+.highlighted{
+	color:#A460ED;
+	text-decoration:underline;
+}
+.headtext{
+	float:left;
+}
+.pop{
+	border-radius:15px;
+	background-color:rgb(183, 196, 207,.5);
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:920px;
+	margin-right:65px;
+}
