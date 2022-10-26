@@ -22,8 +22,11 @@
 	src: url("fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf") format("truetype");
 }
 header{
+	position:fixed;
 	overflow:hidden;
 	background-color:#112B3C;
+	padding-left:50px;
+	padding-right:188.8124938949px; /*trial and error!*/
 }
 footer{
 	overflow:hidden;
@@ -53,8 +56,8 @@ footer{
 	font-size:30px;
 	text-decoration:none;
 	
+	margin-left:10px;
 	margin-top:12.5px;
-	margin-right:15px;
 
 	padding:5px;
 	padding-left:50px;
@@ -74,14 +77,15 @@ footer{
 	margin-top:10px;
 }
 body{
+	background-image: url("imges/yoru.png");
+	background-size:1600px 966px;
 	margin:0;
 	background-color:black;
-	background-image: url("imges/bodybg.gif");
-	background-size:1600px 966px;
 	
 	font-family:BarlowMedium;
 	text-shadow:2px 1px grey;
 }
+/*home page classes*/
 .btn{
 	color:#FF96AD;
 	font-family:BarlowExtraBold;
@@ -116,4 +120,108 @@ body{
 	padding-bottom:10px;
 	margin-left:920px;
 	margin-right:65px;
+}
+/*about page classes*/
+/*about bg*/
+.aboutBg{
+	background-image: url("imges/about.gif");
+	background-size:1600px 966px;
+}
+.aboutPic{
+	float:left;
+	border:10px solid white;
+	border-radius:100px;
+	margin-left:100px;
+	margin-right:100px;
+}
+.aboutPic2{
+	border:10px solid white;
+	margin-left:100px;
+	border-radius:50px;
+	float:left;
+}
+.aboutInfo{
+	font-size:25px;
+	font-family:BarlowExtraBold;
+	text-decoration:none;
+	color:white;
+}
+.aboutInfo2{
+	font-family:BarlowExtraBold;
+	text-decoration:none;
+	color:white;
+	float:right;
+	margin-right:35px;
+	margin-top:140px;
+}
+.infoTextBubble{
+	margin-left:675px;
+	margin-right:75px;
+	margin-top:25px;
+	border-radius:25px;
+	padding-top:1px;
+	padding-bottom:50px;
+	background-color:rgb(183, 196, 207,.5);
+}
+.galleryText{
+	margin-top:265.6px;
+	font-size:75px;
+	font-family:BarlowExtraBold;
+	background-color:rgb(183, 196, 207,.5);
+	color:white;
+	text-align:center;	
+}
+.picBubble{
+	background-color:rgb(183, 196, 207,.9);
+	padding-top:50px;
+}
+/*contact page classes*/
+.contactLogo{
+	float:left;
+	margin-left:55px;
+}
+.contactBg{
+	background-image: url("imges/genshin.jpg");
+	background-size:1600px 966px;
+}
+.contactBg2{
+	background-image: url("imges/genshin pot.gif");
+	background-size:1600px 966px;
+	padding-bottom:100px;
+}
+.contactInfo{
+	float:left;
+	
+	font-size:70px;
+	font-family:BarlowExtraBold;
+	text-decoration:none;
+	color:white;
+}
+.contactInfoHead{
+	font-size:100px;
+	font-family:BarlowExtraBold;
+	text-decoration:none;
+	color:white;
+}
+.contactInfoBubble{
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:50px;
+	border-radius:25px;
+	padding-bottom:790px;
+	padding-right:15px;	
+	padding-left:18px;
+	background-color:rgb(183, 196, 207,.5);
+}
+.Email{
+	color:orange;
+	margin-left:325px;
+}
+.Facebook{
+	color:cyan;
+	margin-left:220px;
+}
+.Discord{
+	color:aquamarine;
+	margin-left:px;
 }
